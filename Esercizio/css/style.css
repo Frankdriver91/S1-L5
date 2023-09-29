@@ -58,6 +58,7 @@ header {
   border-style: solid;
   border-color: white;
   display: inline-block;
+  padding: 10px;
 }
 
 #notebook {
@@ -86,12 +87,17 @@ header {
   margin-inline: auto;
   vertical-align: middle;
   background-color: white;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .images {
   width: 400px;
   margin-top: 20px;
+}
+
+.img-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 footer {
@@ -104,6 +110,7 @@ footer {
 
 h3 {
   color: white;
+  font-weight: bold;
 }
 
 #footer-link {
